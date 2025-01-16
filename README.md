@@ -2,59 +2,55 @@
 
 ## Objective
 
-The objective of this project is to gain hands-on experience with the SOC 2 readiness and audit process.
+I completed a SOC 2 Capstone Project as part of the Symposia curriculum, where I gained hands-on experience in SOC 2 readiness and audit processes. For the fictional company Logger, I defined controls and test descriptions for key Trust Services Criteria, prioritized critical criteria, and recommended a SOC 2 report type to support their expansion into regulated industries. This project enhanced my understanding of SOC 2 compliance and its application in real-world scenarios
 
 ### Skills Learned
 
-- **Phishing Awareness and Prevention:** Understanding the threat that phishing presents to an organization and learning about the different types of phishing emails.
-- **Phishing Email Simulation Design:** Crafting and designing phishing email simulations to raise awareness within an organization.
-- **Email Analysis:** Examining and analyzing fake emails to understand their characteristics and improve their believability.
-- **Security Awareness Training:** Learning how organizations like Mastercard prevent and mitigate phishing threats, which can be applied in creating effective security awareness programs.
+- **SOC 2 Readiness and Audit Processes:** Gained hands-on experience in preparing for and conducting SOC 2 audits, including defining controls and test descriptions.
+- **Trust Services Criteria Prioritization:** Learned to identify and prioritize key Trust Services Criteria based on organizational needs.
+- **Control Development and Testing:** Developed and tested controls aligned with SOC 2 requirements, ensuring compliance with industry standards.
+- **Regulatory Compliance Strategy:** Recommended SOC 2 report types and strategies to support business expansion into regulated industries like healthcare and finance.
 
-## Steps
+## Scenario
 
-### *1: Identify an obvious fake*
+Logger is a US-based company that provides a 24x7x365 SOC-as-a-Service platform to help
+organizations collect and analyze terabytes of log data from across their enterprise. In this case,
+SOC stands for Security Operations Center. Log data can be ingested from different sources
+using Cloud Connectors and are securely transferred to Logger’s platform over HTTPS. All of
+Logger’s services are hosted in Microsoft Azure.
+For the end users, Logger offers a simple-to-use and configurable web interface with a full suite
+of capabilities that include alerting using machine learning models and an add-on service to help
+customers offload the day-to-day management of these logs. Logger’s platform has a range of
+authentication options including Single Sign On (SSO) using SAML or username and password
+with Multi-Factor Authentication (MFA). The platform also uses role-based access controls to
+manage user permissions across an account.
+Logger has built its information security using the NIST CSF as a framework. The company has
+policies and procedures in place along with a suite of controls that give them a decent maturity
+rating against NIST CSF. While the company has successfully completed several customer
+audits, it is not something they have had to deal a lot with yet.
+In addition to the SaaS offering, Logger plans to introduce more managed services to help
+provide monitoring services for customers.
 
-<img width="730" alt="Screenshot 2024-12-18 at 11 35 20 PM" src="https://github.com/user-attachments/assets/37118cad-95bd-4a32-9834-eea925e2390a" /> 
+## Project Scope
 
+1. Describe the benefits of obtaining a SOC 2 audit report for Logger.
+2. Decide on the SOC 2 report type.
+3. Prioritize the Trust Services Criteria that make the most sense for Logger.
+4. Write controls for 5 criteria.
+5. Write test descriptions for the defined controls.
 
-### *2: Recreate and improve the obvious fake email to make it more believable.*
+## Benefits of Obtaining a SOC 2 Audit Report
 
-```
-From: it-support@mastercard.com
+Logger would benefit significantly from obtaining a SOC 2 audit report. Firstly, it would enhance the company's credibility and trustworthiness, especially as it aims to expand into more regulated industries such as finance and healthcare. Secondly, it would demonstrate Logger's commitment to high standards of security and privacy, which is crucial for attracting and retaining clients. Lastly, it would facilitate compliance with industry regulations, thereby reducing legal risks and improving overall business resilience.
 
-To: employee@email.com
+## Recommended SOC 2 Audit Type
 
-Subject: Important: Password Reset Required
+I recommend a SOC 2 Type 2 audit, which evaluates the effectiveness of controls over a period rather than at a single point in time. This will provide a comprehensive assessment of Logger's control environment and demonstrate to potential clients that the company consistently maintains high security standards over time.
 
-Body:
+## Important Trust Services Criteria
 
-Hello [Employee Name],
+1. **Confidentiality:** Given Logger's handling of potentially sensitive data, ensuring that information is protected and only accessible to authorized personnel is critical.
+2. **Processing Integrity:** This ensures that the system processing is complete, valid, accurate, timely, and authorized, which is essential for maintaining the reliability and integrity of the terabytes of log data that Logger processes.
+3. **Availability:** Since Logger provides a 24x7x365 service, it is important to ensure that systems are available and operational to meet clients' needs. This helps to maintain service reliability and client satisfaction.
 
-We have detected unusual activity on your Mastercard employee email account. As a precautionary measure, we require you to reset your password immediately to ensure the security of your account.
-
-Please follow the link below to reset your password within the next hour. Failure to do so may result in temporary suspension of your email account access.
-
-Reset Your Password
-
-Thank you for your prompt attention to this matter.
-
-Regards,
-Mastercard IT Support
-```
-
-#### *Key Improvements:*
-
-- **Context Added:** The email references unusual activity on the employee's account to make it relevant and urgent.
-- **Masked Hyperlink:** The link is masked within "Reset Your Password" to appear more legitimate.
-- **Correct Spelling and Grammar:** The email uses proper spelling, capitalization, and punctuation.
-- **Points of Legitimacy:** The email address and formatting are adjusted to appear more professional and believable.
-
-### *3: Identify which areas of the business need more awareness about phishing*
-
-<img width="729" alt="Screenshot 2024-12-19 at 12 24 33 AM" src="https://github.com/user-attachments/assets/a9b9adf7-6b82-4f46-9bbb-ece520bef415" />
-
-**The phishing campaign results show that the HR and Marketing teams are more likely to fall for a phishing email than others.*
-
-### *4: Design and implement the appropriate training for teams that appear most susceptible*
-
+## Controls for Criteria
