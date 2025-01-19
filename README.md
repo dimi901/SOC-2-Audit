@@ -54,3 +54,100 @@ I recommend a SOC 2 Type 2 audit, which evaluates the effectiveness of controls 
 3. **Availability:** Since Logger provides a 24x7x365 service, it is important to ensure that systems are available and operational to meet clients' needs. This helps to maintain service reliability and client satisfaction.
 
 ## Controls for Criteria
+
+### CC.6.2 - User Registration and Authorization
+**What:** Register and authorize new internal and external users.
+
+**When:** Prior to issuing system credentials and granting system access.
+
+**Who:** IT Security team.
+
+**Control:** Before granting system access, the IT Security team must verify and authorize all new user accounts. User credentials must be deactivated within 24 hours of access termination.
+
+### CC.7.1 - Detection and Monitoring Procedures
+**What:** Monitor changes to configurations and new vulnerabilities.
+
+**When:** Continuously, with daily reviews.
+
+**Who:** IT Operations team.
+
+**Control:** Implement automated monitoring tools to detect configuration changes and vulnerabilities, with daily reviews by the IT Operations team to identify and address any issues.
+
+### CC.7.4 - Incident Response Program
+**What:** Execute a defined incident response program.
+
+**When:** Upon identification of security incidents.
+
+**Who:** Incident Response team.
+
+**Control:** The Incident Response Team must follow the documented incident response plan, including steps to understand, contain, remediate, and communicate security incidents.
+
+### CC.8.1 - Change Management
+**What:** Authorize, design, develop, acquire, configure, document, test, approve, and implement changes.
+
+**When:** For all changes to infrastructure, data, software, and procedures.
+
+**Who:** Change Management team.
+
+**Control:** All changes must go through a formal change management process that includes documentation, testing, and approval before implementation.
+
+### CC.9.2 - Vendor and Partner Risk Management
+**What:** Assess and manage risks associated with vendors and business partners.
+
+**When:** Prior to onboarding and annually thereafter.
+
+**Who:** Vendor Management team.
+
+**Control:** Conduct thorough risk assessments of all vendors and business partners before onboarding and perform annual reviews to ensure compliance with security standards.
+
+## Test Descriptions
+
+### CC.6.2 - User Registration and Authorization
+**Test:** Review a sample of new user registrations and access terminations over the past six months to verify that the IT Security team followed the authorization procedures and deactivated credentials promptly.
+
+**Frequency:** Quarterly.
+
+**Sample Size:** 10 new registrations and 10 terminations per quarter.
+
+**Test Type:** Documentation review and access logs verification.
+
+### CC.7.1 - Detection and Monitoring Procedures
+**Test:** Verify the daily review logs of configuration changes and vulnerability scans for the past three months to ensure the IT Operations team addressed identified issues.
+
+**Frequency:** Monthly.
+
+**Sample Size:** 30 daily review logs.
+
+**Test Type:** Log analysis and incident follow-up.
+
+### CC.7.4 - Incident Response Program
+**Test:** Review incident reports for the past year to confirm that the Incident Response team followed the documented response procedures for understanding, containing, remediating, and communicating incidents.
+
+**Frequency:** Annually.
+
+**Sample Size:** All incident reports within the year.
+
+**Test Type:** Incident report analysis and process verification.
+
+### CC.8.1 - Change Management
+**Test:** Examine a sample of changes to infrastructure, data, software, and procedures to ensure they followed the formal change management process, including documentation, testing, and approval.
+
+**Frequency:** Bi-annually.
+
+**Sample Size:** 20 changes per six months.
+
+**Test Type:** Documentation review and change logs verification.
+
+### CC.9.2 - Vendor and Partner Risk Management
+**Test:** Assess a sample of vendor risk assessments and annual reviews to verify compliance with security standards and the thoroughness of risk management practices.
+
+**Frequency:** Annually.
+
+**Sample Size:** 15 vendor assessments and reviews.
+
+**Test Type:** Documentation review and compliance check.
+
+## Conclusion
+By implementing and testing these controls, Logger can demonstrate its commitment to maintaining high security standards and effectively managing the risks associated with its services and operations.
+
+<a href="https://github.com/dimi901/Cyber-Portfolio">Back to Cyber-Portfolio</a>
