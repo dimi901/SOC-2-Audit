@@ -150,4 +150,4 @@ I recommend a SOC 2 Type 2 audit, which evaluates the effectiveness of controls 
 ## Conclusion
 By implementing and testing these controls, Logger can demonstrate its commitment to maintaining high security standards and effectively managing the risks associated with its services and operations.
 
-<a href="https://github.com/dimi901/Cyber-Portfolio">Back to Cyber-Portfolio</a>
+<a href="https://github.com/dimi901/Cyber-Portfolio"><<Back to Cyber-Portfolio</a>
